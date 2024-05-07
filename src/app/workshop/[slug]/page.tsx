@@ -8,7 +8,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 
             {/* user form */}
             <div className="flex-row w-full md:w-1/2  p-4 ">
-              <WorkshopRigisterForm/>
+              <WorkshopRigisterForm workshopId={params.slug.toString()}/>
             </div>
             {/* workshop details */}
             <div className="flex flex-row  w-full   justify-center items-center md:w-1/2  p-4 ">
