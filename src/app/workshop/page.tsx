@@ -3,7 +3,7 @@ import React from 'react'
 import { useEffect,useState } from 'react'
 import Link from 'next/link'
 import workshophelper from '@/utils/workshopHelper'
-const page = () => {
+const Page = () => {
   interface Workshop {
     id: string;
     title: string;
@@ -96,4 +96,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
