@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
    
    
-    <header className="flex h-16 w-full items-center justify-between bg-gray-900 px-4 md:px-6 py-4">
+    <header className="flex h-16 w-full items-center justify-between bg-[#121212]  px-4 md:px-6 py-4">
       <Link className="flex items-center gap-2 text-lg font-semibold text-gray-50" href="#">
         {/* <MountainIcon className="h-6 w-6" /> */}
         <span>HackersTower</span>
